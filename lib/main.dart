@@ -27,7 +27,7 @@ import 'configs/core_theme.dart' as theme;
 Future<void> main() async {
   setPathUrlStrategy();
   WidgetsFlutterBinding.ensureInitialized();
-
+// test riyan
 // hive
   await Hive.initFlutter();
 
