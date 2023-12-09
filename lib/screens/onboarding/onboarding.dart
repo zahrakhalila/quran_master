@@ -23,22 +23,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     const _OnBoardingPage(
       image: StaticAssets.gradLogo,
       text:
-          "The Holy Qur'an\n\n\"Indeed, It is We who sent down the Qur'an and indeed, We will be its Guardian\"\n",
+          "The Holy Qur'an\n\n\"Read the Qur'an, because indeed it will be an intercessor for its readers on the Day of Judgment\"\n",
     ),
     const _OnBoardingPage(
       image: StaticAssets.ui,
       text:
-          "With sleek & awesome User Interface to keep you in love with this amazing app and the Book.\n\nHope you will like our efforts!\n",
+          "With sleek & awesome User Interface to keep you in love with this amazing app.\n\nHope you will like it!\n",
     ),
     const _OnBoardingPage(
       image: StaticAssets.easyNav,
       text:
           "Now with Surah & Juz Index you can find your required Surahs & Juzs easily.\n\nWith Bookmark option you can access your daily readings.\n",
-    ),
-    const _OnBoardingPage(
-      image: StaticAssets.drawer3d,
-      text:
-          "For the first time ever, we introduced a very unique experience for our users with 3D Drawer.\n\nCan't wait for your reviews :)\n",
     ),
   ];
 

@@ -220,7 +220,7 @@ class _JuzIndexScreenState extends State<JuzIndexScreen> {
             CustomImage(
               opacity: 0.3,
               height: AppDimensions.normalize(60),
-              imagePath: StaticAssets.quranRail,
+              imagePath: StaticAssets.mosque,
             ),
             const CustomTitle(
               title: "Juzz Index",

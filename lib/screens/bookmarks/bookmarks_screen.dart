@@ -40,12 +40,11 @@ class _BookmarksScreenState extends State<BookmarksScreen> {
       body: SafeArea(
         child: Stack(
           children: [
-            if (!appProvider.isDark)
-              CustomImage(
-                opacity: 0.3,
-                height: AppDimensions.normalize(60),
-                imagePath: StaticAssets.sajda,
-              ),
+            CustomImage(
+              opacity: 0.3,
+              height: AppDimensions.normalize(60),
+              imagePath: StaticAssets.quran,
+            ),
             const AppBackButton(),
             const CustomTitle(
               title: 'Bookmarks',
@@ -75,7 +74,7 @@ class _BookmarksScreenState extends State<BookmarksScreen> {
                   } else if (state is BookmarkFetchSuccess) {
                     return ListView.separated(
                       separatorBuilder: (context, index) => const Divider(
-                        color: Color(0xffee8f8b),
+                        color: Color.fromARGB(255, 227, 181, 43),
                       ),
                       itemCount: bookmarkCubit.state.data!.length,
                       itemBuilder: (context, index) {

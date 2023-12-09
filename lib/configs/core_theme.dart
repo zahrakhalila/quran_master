@@ -9,7 +9,7 @@ final themeLight = ThemeData(
   brightness: Brightness.light,
   dividerColor: Colors.white60,
   splashColor: Colors.transparent,
-  primaryColor: const Color(0xffee8f8b),
+  primaryColor: const Color.fromARGB(255, 227, 181, 43),
   scaffoldBackgroundColor: Colors.white,
   colorScheme: ThemeData.light()
       .colorScheme

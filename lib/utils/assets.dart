@@ -6,6 +6,8 @@ class StaticAssets {
   static const String roza = 'assets/images/roza.png';
   static const String sajda = 'assets/images/sajda.jpg';
   static const String quranRail = 'assets/images/quranRail.png';
+  static const String quran = 'assets/images/quran.png';
+  static const String mosque = 'assets/images/mosque.png';
 
   static const String ui = 'assets/intro/ui.png';
   static const String easyNav = 'assets/intro/easyNav.png';

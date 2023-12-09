@@ -182,7 +182,7 @@ class _SurahIndexScreenState extends State<SurahIndexScreen> {
                   child: searchedChapters!.isNotEmpty
                       ? ListView.separated(
                           separatorBuilder: (context, index) => const Divider(
-                            color: Color(0xffee8f8b),
+                            color: Color.fromARGB(255, 227, 181, 43),
                           ),
                           itemCount: searchedChapters!.length,
                           itemBuilder: (context, index) {
@@ -194,7 +194,7 @@ class _SurahIndexScreenState extends State<SurahIndexScreen> {
                         )
                       : ListView.separated(
                           separatorBuilder: (context, index) => const Divider(
-                            color: Color(0xffee8f8b),
+                            color: Color.fromARGB(255, 227, 181, 43),
                           ),
                           itemCount: chapters!.length,
                           itemBuilder: (context, index) {
