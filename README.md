@@ -1,6 +1,11 @@
 # quran_master
 
-A new Flutter project.
+Project akhir mata kuliah Pemrograman Perangkat Bergerak
+Kelompok 7 Kelas A PTIK UNS
+1. Anna Sanya Khazanah (K3521009)
+2. Mutiah Ratih Purwanti (K3521055)
+3. Riyan Bagas Dwi Prasetyo (K3521063)
+4. Zahra Khalila Salsabila (K3521069)
 
 ## Getting Started
 
